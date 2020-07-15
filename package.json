@@ -8,7 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy-github": "ng build --prod --base-href=/series-lazy-loading-modules-tutorial/"
+    "deploy-github-root": "ng build --prod --base-href=/series-lazy-loading-modules-tutorial/",
+    "deploy-github": "ng build --prod --base-href=/series-lazy-loading-modules-tutorial/dist/lazy-module-project/"
   },
   "private": true,
   "dependencies": {
